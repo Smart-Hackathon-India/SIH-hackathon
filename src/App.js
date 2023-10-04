@@ -1,14 +1,16 @@
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import React from 'react';
+import Nav from './Nav';
+import Ads from './Hospitals_ads';
+import Hospitals from './Hospital';
+import Footer from './Footer';
 
-function NavScrollExample() {
+export default function App() {
   return (
-    <h1>HELLO</h1>
-  );
+    <>
+    <Nav />
+    <Ads />
+    <Hospitals />
+    <Footer />
+    </>
+  )
 }
-
-export default NavScrollExample;
